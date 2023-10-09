@@ -1,0 +1,109 @@
+body {
+  background-color: bisque;
+}
+
+main {
+  width: 50vw;
+  margin: 50px auto;
+  background-color: rgb(238, 185, 119);
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+footer {
+  background-color: #333333;
+  color: aliceblue;
+  height: 50px;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 12px -2px black;
+}
+
+#homepage {
+  font-size: 25px;
+  min-height: 90vh;
+}
+
+.quote {
+  text-align: center;
+  font-style: italic;
+  font-size: 50px;
+  margin-top: 5em;
+}
+
+#title {
+  font-family: 'Courier New', Courier, monospace;
+  color: aliceblue;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 25px;
+  float: left;
+}
+
+#links {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  margin:0;
+  padding: 10px;
+  margin-right: 25px;
+  padding-top: 15px;
+  float: right;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+header {
+  width: 100vw;
+  height: 70px;
+  background-color: #333333;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#homepage > img {
+  float: right;
+  margin: 10px 0 10px 10px;
+  padding-top: 25px;
+  padding-right: 50px;
+}
+
+#aboutpage {
+  min-height: 125vh;
+}
+#aboutsection {
+  font-size: 17px;
+}
+
+#aboutsection > h3 {
+  font-size: 25px;
+}
+
+#aboutpictureone {
+  float: right;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+#aboutpicturetwo {
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+#aboutpicturethree {
+  float: right;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
