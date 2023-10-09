@@ -13,6 +13,8 @@ main {
 
 footer {
   background-color: #333333;
+  text-align: center;
+  font-size: 30px;
   height: 50px;
   padding: 10px;
   position: fixed;
