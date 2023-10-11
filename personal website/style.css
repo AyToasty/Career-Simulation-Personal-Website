@@ -26,7 +26,7 @@ footer {
 
 #homepage {
   font-size: 25px;
-  min-height: 90vh;
+  min-height: 85vh;
 }
 
 .quote {
@@ -55,7 +55,13 @@ footer {
   float: right;
 }
 
-a {
+footer > a {
+  color: #39393a;
+  text-decoration: none;
+  float: inherit;
+}
+
+#links > a {
   color: aliceblue;
   text-decoration: none;
 }
@@ -73,11 +79,11 @@ header {
   float: right;
   margin: 10px 0 10px 10px;
   padding-top: 25px;
-  padding-right: 50px;
+  padding-right: 20px;
 }
 
 #aboutpage {
-  min-height: 125vh;
+  min-height: 127vh;
 }
 #aboutsection {
   font-size: 17px;
@@ -89,7 +95,7 @@ header {
 
 #aboutpictureone {
   float: right;
-  padding-right: 20px;
+  padding-right: 10px;
   padding-bottom: 20px;
   padding-left: 20px;
 }
@@ -102,21 +108,21 @@ header {
 
 #aboutpicturethree {
   float: right;
-  padding-right: 20px;
+  padding-right: 10px;
   padding-bottom: 20px;
   padding-left: 20px;
 }
 
 #portfoliosection {
-  min-height: 115vh;
+  min-height: 135vh;
   font-size: 20px;
 }
 
 .project {
   font-size: 20px;
   background-color: rgb(180, 223, 238);
-  padding-top: 5px;
-  padding-left: 5px;
+  margin: 1em auto;
+  padding: 1em;
 }
 
 #projectpicone {
